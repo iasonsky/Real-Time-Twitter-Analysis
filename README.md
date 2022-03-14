@@ -44,7 +44,3 @@ These instructions will get you a copy of the project up and running on your loc
 4. Confirm the URI, Host and Repository path parameters and click Next
 5. Choose the Git branches to clone from the remote repository and click Next
 6. Confirm the Directory into which the repository will be cloned and click Next
-
-### Application UI
-The main page <br>
-![image](https://user-images.githubusercontent.com/17927250/158261470-1f8f1f7a-e295-4c59-9e92-c1e7c49d58ab.png)
