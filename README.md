@@ -24,7 +24,8 @@ The architecture of the application is explained below:
         - Finally the results of the clustering are also saved in HDFS.
 
 ## Getting Started
-In order to run this project we have to install the following programs and also make sure to set up all enviroment variables correctly so 
+### Requirements
+In order to run this project you have to install the following programs and also make sure to set up all enviroment variables correctly so 
 everything works as expected.
 1.	[Java Development Kit (JDK)](https://www.filehorse.com/download-java-development-kit-64/55825/)
 2.	[Java Runtime Environment (JRE)](https://download.cnet.com/Java-Runtime-Environment-JRE/3000-2213_4-10009607.html)
@@ -34,3 +35,16 @@ everything works as expected.
 6.	[Avro](https://downloads.apache.org/avro/avro-1.10.2/)
 7.	[Mahout](https://downloads.apache.org/mahout/0.12.0/)
 8.	[Tomcat Server](https://tomcat.apache.org/download-90.cgi)
+
+### Installation 
+These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
+1. Copy the GitHub URL of the repository to the clipboard `git clone https://github.com/iasonsky/Real-Time-Twitter-Analysis.git`
+2. Open Eclipse and choose Import –> Projects from Git (with smart import)
+3. Choose the Clone URI option in the Git import wizard and click Next
+4. Confirm the URI, Host and Repository path parameters and click Next
+5. Choose the Git branches to clone from the remote repository and click Next
+6. Confirm the Directory into which the repository will be cloned and click Next
+
+### Application UI
+The main page <br>
+![image](https://user-images.githubusercontent.com/17927250/158261470-1f8f1f7a-e295-4c59-9e92-c1e7c49d58ab.png)
