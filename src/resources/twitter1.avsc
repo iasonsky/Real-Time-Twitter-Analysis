@@ -1,0 +1,31 @@
+{
+    "namespace": "hadoop.ecosystem",
+    "type":"record",
+    "name":"Doc",
+    "fields" : [
+        {   "name":"id","type":["string","null"]},
+        {   "name":"user_friends_count", "type":["int","null"]},
+        {   "name":"user_location","type":["string","null"]},
+        {   "name":"user_description","type":["string","null"]},
+        {   "name":"user_statuses_count","type":["int","null"]},
+        {   "name":"user_followers_count","type":["int","null"]},
+        {   "name":"user_name","type":["string","null"]},
+        {   "name":"user_screen_name","type":["string","null"]},
+        {   "name":"created_at","type":["string","null"]},
+        {   "name":"text","type":["string","null"]},
+        {   "name":"retweet_count","type":["long","null"]},
+        {   "name":"retweeted","type":["boolean","null"]},
+        {   "name":"in_reply_to_user_id","type":["string","null"]},
+        {   "name":"source","type":["string","null"]},
+        {   "name":"in_reply_to_status_id","type":["string","null"]},
+        {   "name":"hashtags","type": {
+                                    "type": "array",
+                                    "items": ["string","null"]
+                                 }},
+        {   "name":"user_mentions","type": {
+                                            "type": "array",
+                                            "items": ["string","null"],
+                                            "default": null
+                                         }}
+    ]
+}

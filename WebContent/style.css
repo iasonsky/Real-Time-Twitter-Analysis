@@ -1,0 +1,17 @@
+@charset "UTF-8";
+
+body {
+	background-color: lightblue;
+}
+
+#headcontent{
+	font-family: comic sans ms;
+	color: firebrick;
+}
+
+p {
+	width:25%;
+	border-style: dotted;
+	border-with: 4px;
+	border-color: white;
+}
