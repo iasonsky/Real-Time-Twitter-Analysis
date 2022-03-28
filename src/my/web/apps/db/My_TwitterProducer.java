@@ -35,10 +35,10 @@ public class My_TwitterProducer {
 		try
 		{
 			producer = new KafkaProducer<>(props);
-			String consumerKey = "esjhzgNOweGTePhS4DWnjtJJb";
-			String consumerSecret = "Q6HO07az1NP6xXQTOGy8YtgjHwH6LZ1pOiKkFSs1PMzbwCRWpY";
-			String token = "1120798090921947136-ItkUaQzI2Wdn9Z1JsbCSIE8hXAODW4";
-			String secret = "Gj8aui1yQ9T0CtfWzzSGGqJAREY1tFYKvotokKxFHPpwi";
+			String consumerKey = "API Key"; 
+			String consumerSecret = "API Secret Key";
+			String token = "Access Token";
+			String secret = "Access Token Secret";
 			BlockingQueue<String> queue = new LinkedBlockingQueue<String>(10000);
 			StatusesFilterEndpoint endpoint = new StatusesFilterEndpoint();
 			endpoint.trackTerms(Lists.newArrayList(keyword1, keyword2, keyword3)); //keywords
